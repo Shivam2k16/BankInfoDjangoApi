@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=a=8a36h0g16&y_9-h=iiqpiuc#yp5w0evus8e_moj_mng7unc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['safe-wildwood-60996.herokuapp.com']
+ALLOWED_HOSTS = ['safe-wildwood-60996.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'project01.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'banks',
-        'USER':'banks',
-        'PASSWORD':'banks',
-        'HOST': '127.0.0.1',
+        'NAME':'d3k51qnnitcfrj',
+        'USER':'jhlzgrdonquoqu',
+        'PASSWORD':'31df36efc75619b40f0e1404b1722e4d832c9499168e262968769ed7ca24dcc2',
+        'HOST': 'ec2-54-235-156-60.compute-1.amazonaws.com',
         'PORT': '5432',
     },
     'original': {
